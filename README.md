@@ -16,4 +16,4 @@ Frente a fraco acesso dos atletas e simpatizantes das modalidades  desportivas a
 
 
 
-**Sponsered** _by Milagre Thovela e Franco Machava._
+**Sponsored** _by Milagre Thovela e Franco Machava._
