@@ -1,0 +1,16 @@
+
+Cinzento: 
+Hex - #4d4d4d
+RGB - 77,77,77
+
+Cinzento claro:
+Hex - #7b7b7b
+RGB - 123,123,123
+
+Creme:
+Hex - #fbb03b
+RGB - 251,176,59
+
+Vermelho:
+Hex: #c1272d
+RGB - 193,39,45
