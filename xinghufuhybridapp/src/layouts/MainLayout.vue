@@ -31,7 +31,7 @@
           <q-list padding>
             <q-item to="/" exact clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="inbox" />
+                <q-icon name="news" />
               </q-item-section>
 
               <q-item-section>
