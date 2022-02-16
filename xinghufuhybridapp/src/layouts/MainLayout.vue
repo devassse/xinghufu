@@ -42,7 +42,6 @@ export default {
   },
   data () {
     return {
-      leftDrawerOpen: false,
       profilebgc: profilebgcsrc
     }
   },

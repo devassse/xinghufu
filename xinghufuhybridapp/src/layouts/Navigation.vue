@@ -7,7 +7,18 @@
       >
         <q-scroll-area style="height: calc(100% - 185px); margin-top: 185px; border-right: 1px solid #ddd">
           <q-list padding>
+
             <q-item to="/" exact clickable v-ripple>
+              <q-item-section avatar>
+                <q-icon name="dashboard" />
+              </q-item-section>
+
+              <q-item-section>
+                Dashboard
+              </q-item-section>
+            </q-item>
+
+            <q-item to="/news" clickable v-ripple>
               <q-item-section avatar>
                 <q-icon name="notes" />
               </q-item-section>
@@ -19,7 +30,7 @@
 
             <q-item to="/matchs" clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="star" />
+                <q-icon name="event" />
               </q-item-section>
 
               <q-item-section>
@@ -29,21 +40,11 @@
 
             <q-item to="/highlights" clickable v-ripple>
               <q-item-section avatar>
-                <q-icon name="star" />
+                <q-icon name="grade" />
               </q-item-section>
 
               <q-item-section>
                 Melhores Momentos
-              </q-item-section>
-            </q-item>
-
-            <q-item to="/todo" clickable v-ripple>
-              <q-item-section avatar>
-                <q-icon name="star" />
-              </q-item-section>
-
-              <q-item-section>
-                To do
               </q-item-section>
             </q-item>
 
@@ -72,6 +73,7 @@ export default {
   },
   data () {
     return {
+      leftDrawerOpen: false,
       profilepic: profilepicsrc,
       profilebgc: profilebgcsrc
     }
